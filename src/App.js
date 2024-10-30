@@ -1,7 +1,7 @@
 // src/App.js
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { CursorProvider } from "./context/CursorContext"; // Import the CursorProvider
+import { CursorProvider } from "./context/CursorContext";
 
 import CustomCursor from "./components/CustomCursor";
 import Home from "./pages/Home";
