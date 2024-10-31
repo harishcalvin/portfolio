@@ -1,15 +1,14 @@
 // src/pages/Projects.js
 import React from "react";
 import { useCursor } from "../context/CursorContext";
-// import { motion } from "framer-motion";
-
+import ImageSlider from "../components/ImageSlider";
 import projectsData from "../data/projectsData";
 
 const Projects = () => {
   const { handleHover, handleMouseLeave } = useCursor();
 
   return (
-    <div className="flex flex-col items-center justify-center bg-gradient-to-r from-gray-800 to-black">
+    <div className="flex flex-col items-center justify-center bg-gradient-to-r from-gray-800 to-black pt-32">
       <div className="container mx-auto">
         <h1 className="text-white text-3xl mb-5">My Projects</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20">
@@ -18,11 +17,7 @@ const Projects = () => {
               key={project.id}
               className="border border-gray-600 shadow-xl rounded-lg hover:shadow-2xl hover:shadow-gray-500/50 transition-shadow duration-300 ease-in-out bg-gray-800"
             >
-              <img
-                src={project.thumbnail}
-                alt={project.title}
-                className="w-full object-cover mb-2 rounded"
-              />
+              <ImageSlider images={project.images} />
               <div className="p-4">
                 <h2 className="text-xl text-zinc-200 font-semibold">
                   {project.title}

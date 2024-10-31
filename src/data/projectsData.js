@@ -8,8 +8,10 @@ const projectsData = [
     demoVideo: "link-to-demo-video.com",
     previewLink: "https://inventory-management-im.onrender.com",
     codeLink: "https://github.com/harishcalvin/inventory-management/",
-    thumbnail:
+    images: [
       "https://raw.githubusercontent.com/harishcalvin/inventory-management/main/app_files/products_view.jpg",
+      "https://raw.githubusercontent.com/harishcalvin/inventory-management/main/app_files/bill_view.jpg",
+    ],
   },
   {
     id: 2,
@@ -19,7 +21,7 @@ const projectsData = [
     demoVideo: "link-to-demo-video.com",
     previewLink: "link-to-preview.com",
     codeLink: "https://github.com/harishcalvin/project_management",
-    thumbnail: "link-to-thumbnail-image.com",
+    images: [],
   },
   {
     id: 3,
@@ -29,7 +31,7 @@ const projectsData = [
     demoVideo: "link-to-demo-video.com",
     previewLink: "https://harishcalvin.github.io/invoice_generator/",
     codeLink: "https://github.com/harishcalvin/invoice_generator",
-    thumbnail: "images/invoice-gen-project-screenshot.png",
+    images: ["images/invoice-gen-project-screenshot.png"],
   },
   {
     id: 4,
@@ -39,7 +41,7 @@ const projectsData = [
     demoVideo: "link-to-demo-video.com",
     previewLink: "https://harishcalvin.github.io/invoice_generator/",
     codeLink: "https://github.com/harishcalvin/invoice_generator",
-    thumbnail: "images/nyc-news-api-project-screenshot.png",
+    images: ["images/nyc-news-api-project-screenshot.png"],
   },
 ];
 
