@@ -5,7 +5,7 @@ const projectsData = [
     description:
       "Add/Edit/Delete/Restore products with or without variants. Generate bills, View sales history.",
     techStack: ["Ruby", "Rails", "Tailwind", "JavaScript", "Render"],
-    demoVideo: "link-to-demo-video.com",
+    demoVideo: "https://youtu.be/eh-FAEa0HNY",
     previewLink: "https://inventory-management-im.onrender.com",
     codeLink: "https://github.com/harishcalvin/inventory-management/",
     images: [
@@ -19,7 +19,7 @@ const projectsData = [
     description:
       "Manage and Add/edit/delete projects with phases and set milestones for your team or clients to see. Filter by status as needed",
     techStack: ["Ruby", "Rails", "Tailwind", "JavaScript", "fly.io"],
-    demoVideo: "link-to-demo-video.com",
+    demoVideo: "https://youtu.be/bS9AlAr2fSc",
     previewLink: "https://gn-project.fly.dev/",
     codeLink: "https://github.com/harishcalvin/project_management",
     images: [
@@ -39,7 +39,7 @@ const projectsData = [
     title: "Creators Invoice Generate",
     description: "Add Services, hours worked and dowload as a PDF",
     techStack: ["HTML", "CSS", "JavaScript", "Netlify"],
-    demoVideo: "link-to-demo-video.com",
+    demoVideo: "",
     previewLink: "https://harishcalvin.github.io/invoice_generator/",
     codeLink: "https://github.com/harishcalvin/invoice_generator",
     images: ["images/invoice-gen-project-screenshot.png"],
@@ -49,7 +49,7 @@ const projectsData = [
     title: "NYC News app",
     description: "Simple news app using NYT API",
     techStack: ["HTML", "CSS", "JavaScript", "Netlify"],
-    demoVideo: "link-to-demo-video.com",
+    demoVideo: "",
     previewLink: "https://news-app-nytimes-api-js.netlify.app/",
     codeLink: "https://github.com/harishcalvin/news-app-nytimes-api",
     images: ["images/nyc-news-api-project-screenshot.png"],
@@ -60,7 +60,7 @@ const projectsData = [
     description:
       "Simple todo app to add/edit/delete tasks, with 2 modes light/dark UI from frontendmentor.io",
     techStack: ["HTML", "SCSS", "JavaScript", "Netlify"],
-    demoVideo: "link-to-demo-video.com",
+    demoVideo: "",
     previewLink: "https://harishcalvin.github.io/todo/",
     codeLink: "https://github.com/harishcalvin/todo",
     images: [

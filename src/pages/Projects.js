@@ -70,23 +70,25 @@ const Projects = () => {
                     💻
                   </a>
                   <br />
-                  <a
-                    href={project.demoVideo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mx-5 text-2xl"
-                    onMouseEnter={() =>
-                      handleHover(
-                        "Demo Video",
-                        "🎥",
-                        "rgba(0, 123, 255, 0.8)",
-                        "#ffffff"
-                      )
-                    }
-                    onMouseLeave={handleMouseLeave}
-                  >
-                    🎥
-                  </a>
+                  {project.demoVideo && (
+                    <a
+                      href={project.demoVideo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mx-5 text-2xl"
+                      onMouseEnter={() =>
+                        handleHover(
+                          "Demo Video",
+                          "🎥",
+                          "rgba(0, 123, 255, 0.8)",
+                          "#ffffff"
+                        )
+                      }
+                      onMouseLeave={handleMouseLeave}
+                    >
+                      🎥
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
